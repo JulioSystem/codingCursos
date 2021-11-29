@@ -279,7 +279,7 @@ body{
 /* =================================== GALERIA ===================================*/
 
 /* ===== GRID CONTAINER GALERY ===== */
-.grid-galery__container{
+.grid-container__galeria{
 	display: grid;
 	grid-template-areas: 
 	"header navigation navigation"
@@ -423,6 +423,76 @@ body{
 .grid-galery__footer p{
 	margin: 0 10px;
 }
+
+
+/* =================================== SERVICIOS ===================================*/
+/* =================================== SERVICIOS ===================================*/
+/* =================================== SERVICIOS ===================================*/
+/* ===== GRID CONTAINER SERVICES ===== */
+.grid-container__servicios{
+	display: grid;
+	grid-template-areas:
+	"header navigation navigation"
+	"hero hero hero"
+	"main main main"
+	"social social social"
+	"footer footer footer";
+}
+/* ===== GRID HEADER ===== */
+.grid-servicios__header{
+	grid-area: header;
+}
+
+.grid-servicios__navigation{
+	grid-area: navigation;
+}
+
+.grid-servicios__hero{
+	grid-area: hero;
+}
+
+.grid-servicios__main{
+	grid-area: main;
+}
+
+.grid-servicios__social{
+	grid-area: social;
+}
+
+.grid-servicios__footer{
+	grid-area: footer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* =================================== MEDIA QUERIES ===================================*/
@@ -635,7 +705,7 @@ body{
 
 
 	/* ===== GRID CONTAINER GALERY ===== */
-	.grid-galery__container{
+	.grid-container__galeria{
 		display: grid;
 		grid-template-areas: 
 		"header header"
