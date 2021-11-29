@@ -78,6 +78,10 @@ body{
 	color: #fff;
 }
 
+.grid-navigation__icon{
+	display: none;
+}
+
 /* ===== GRID HERO ===== */
 .grid-hero{
 	grid-area: hero;
@@ -418,4 +422,332 @@ body{
 
 .grid-galery__footer p{
 	margin: 0 10px;
+}
+
+
+/* =================================== MEDIA QUERIES ===================================*/
+/* =================================== MEDIA QUERIES ===================================*/
+/* =================================== MEDIA QUERIES ===================================*/
+/* =================================== MEDIA QUERIES ===================================*/
+/* =================================== MEDIA QUERIES ===================================*/
+/* =================================== MEDIA QUERIES ===================================*/
+/* =================================== MEDIA QUERIES ===================================*/
+/* =================================== MEDIA QUERIES ===================================*/
+/* =================================== MEDIA QUERIES ===================================*/
+
+
+@media all and (max-width: 576px){
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	/* =================================== INICIO MOBILE===================================*/
+	/* =================================== INICIO MOBILE===================================*/
+	/* =================================== INICIO MOBILE===================================*/
+
+	/* ===== GRID CONTAINER HOME ===== */
+	.grid-container__inicio{
+		display: grid;
+		grid-template-areas:
+		"header header"
+		"navigation navigation"
+		"hero hero"
+		"main main"
+		"banner banner"
+		"social social"
+		"footer footer";
+	}
+	
+	/* ===== GRID HEADER ===== */
+	.grid-header{
+		grid-area: header;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.grid-header a img{
+		height: 35px;
+	}
+
+	/* ===== GRID NAVIGATION ===== */
+	.grid-navigation{
+		grid-area: navigation;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.8rem;
+		padding-bottom: 15%;
+	}
+
+	.grid-navigation ul{
+		display: none;
+	}
+
+	.grid-navigation__icon{
+		display: flex;
+	}
+
+	.grid-navigation__icon a{
+		color: #000;
+		padding:  0 10px 0 10px;
+	}
+
+	/* .uil {
+		color: #221e38;
+	} */
+
+	/* ===== GRID HERO ===== */
+
+	.grid-hero{
+		grid-area: hero;
+		display: flex;
+		height: 100vh;
+		background-image: url("../assets/img/principalMobile.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		align-items: flex-start;
+		padding-top: 15%;
+	}
+
+	.grid-hero__text{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 0 5% 0 2%;
+	}
+	.grid-hero__text .grid-hero__text--principal{
+		font-size: 2.8rem;
+	}
+
+	.grid-hero__text .grid-hero__text--secondary{
+		font-size: 1rem;
+		text-align: left;
+		
+	}
+
+	.grid-hero__text .grid-hero__text--button {
+		font-size: 0.9rem;
+	}
+
+	/* ===== GRID MAIN ===== */
+	.grid-main{
+		grid-area: main;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.grid-main__subtitle .titleSub{
+		font-size: 1.9rem;
+		padding-top: 50px;
+		width: 300px;
+		
+	}
+
+	.grid-main__subtitle p{
+		font-size: 0.9rem;
+	}
+
+
+	.titleParrafo{
+		width: 350px;
+		/* padding-bottom: 5%; */
+	}
+
+	.grid-main .reusableButton{
+		display: flex;
+		margin: -20% 35% 15% 35%;
+	}
+
+	.grid-main__box{
+		grid-template-columns: 150px;
+		justify-content: center;
+	}
+
+	.grid-main__box .cat-date{
+		font-size: 1rem;
+	}
+	
+	.grid-main__box .titleBox{
+		font-size: 1.8rem;
+	}
+	
+	.grid-main__box img{
+		width: 200px;
+	}
+
+	.reusableBoxp p{
+		font-size: 0.8rem;
+	}
+
+	/* ===== GRID BANNER===== */
+	.grid-banner{
+		grid-area: banner;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 50px 0 35px 0;
+	}
+
+	.grid-banner p{
+		font-size: 1.6rem;
+		text-align: center;
+		padding-bottom: 5%;
+	}
+
+	/* ===== GRID SOCIAL ===== */
+	.grid-social{
+		grid-area: social;
+		
+	}
+	
+	.grid-social p{
+		font-size: 1.4rem;
+	}
+	.grid-social ul{
+		text-align: center;
+		font-size: 1.3rem;
+	}
+
+	.grid-social li{
+		display: block;
+	}
+
+	.grid-social ul li a{
+		color: #ccc;
+	}
+
+	/* ===== GRID FOOTER ===== */
+	.grid-footer{
+		grid-area: footer;
+		flex-direction: column;
+	}
+
+	.grid-footer p{
+		padding-bottom: 20px;
+		font-size: 1.1rem;
+	}
+
+	/* =================================== GALERY MOBILE===================================*/
+	/* =================================== GALERY MOBILE===================================*/
+	/* =================================== GALERY MOBILE===================================*/
+
+
+	/* ===== GRID CONTAINER GALERY ===== */
+	.grid-galery__container{
+		display: grid;
+		grid-template-areas: 
+		"header header"
+		"navigation navigation"
+		"hero hero"
+		"main main"
+		"social social"
+		"footer footer";
+	}
+
+
+	/* ===== GRID HEADER ===== */
+	.grid-galery__header{
+		grid-area: header;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.grid-galery__header a img{
+		height: 35px;
+	}
+
+	/* ===== GRID NAVIGATION ===== */
+	.grid-galery__navigation{
+		grid-area: navigation;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.8rem;
+		padding-bottom: 15%;
+	}
+
+	.grid-galery__navigation ul{
+		display: none;
+	}
+
+	.grid-navigation__icon{
+		display: flex;
+	}
+
+	.grid-navigation__icon a{
+		color: #000;
+		padding:  0 10px 0 10px;
+	}
+
+	/* ===== GRID HERO ===== */
+	.grid-galery__hero{
+		grid-area: hero;
+		height: 80vh;
+		display: flex;
+		background-image: url("../assets/img/galeryMobile.png");
+		background-size: contain;
+		padding-bottom: 50%;
+	}
+
+	.grid-galeryHero__text{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.grid-galeryHero__text .grid-galeryHero__text--principal{
+		font-size: 2.8rem;
+	}
+
+	.grid-galeryHero__text--secondary{
+		font-size: 1rem;
+		
+	}
+
+	/* ===== GRID MAIN ===== */
+	.grid-galery__main{
+		grid-area: main;
+	}
+
+	/* ===== GRID SOCIAL ===== */
+	.grid-galery__social{
+		grid-area: social;
+	}
+
+	.grid-galery__social p{
+		font-size: 1.4rem;
+	}
+	.grid-galery__social ul{
+		text-align: center;
+		font-size: 1.3rem;
+	}
+
+	.grid-galery__social li{
+		display: block;
+	}
+
+	.grid-galery__social ul li a{
+		color: #ccc;
+	}
+
+	/* ===== GRID FOOTER ===== */
+	.grid-galery__footer{
+		grid-area: footer;
+		flex-direction: column;
+	}
+
+	.grid-galery__footer p{
+		padding-bottom: 20px;
+		font-size: 1.1rem;
+	}
+
+
+
+
+
+
+
 }
