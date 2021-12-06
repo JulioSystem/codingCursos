@@ -87,7 +87,7 @@ body{
 	grid-area: hero;
 	height: 92.5vh;
 	display: flex;
-	background-image: url("../assets/img/inicioPrincipal.png");
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/proyecto-one-a94fe.appspot.com/o/inicioPrincipal.png?alt=media&token=ac7969ff-0694-4ab6-8ad1-2e44988b8377");
 	background-size: contain;
 	justify-content: center;
 	align-items: center;
@@ -326,7 +326,7 @@ body{
 	grid-area: hero;
 	height: 92.5vh;
 	display: flex;
-	background-image: url("../assets/img/galeryPrincipal.png");
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/proyecto-one-a94fe.appspot.com/o/galeryPrincipal.png?alt=media&token=23c2adfd-d080-422b-8df7-70611472b759");
 	background-size: contain;
 	justify-content: flex-end;
 	background-repeat: no-repeat;
@@ -485,7 +485,7 @@ body{
 	grid-area: hero;
 	height: 92.5vh;
 	display: flex;
-	background-image: url("../assets/img/servicesPrincipal.png");
+	background-image: url(".https://firebasestorage.googleapis.com/v0/b/proyecto-one-a94fe.appspot.com/o/servicesPrincipal.png?alt=media&token=4b4e7cc0-2c3e-43cd-84f0-14c4cc03501f");
 	background-size: cover;
 	background-repeat: no-repeat;
 	justify-content: flex-start;
@@ -660,7 +660,7 @@ body{
 	grid-area: hero;
 	height: 92.5vh;
 	display: flex;
-	background-image: url("../assets/img/inicioPrincipal.png");
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/proyecto-one-a94fe.appspot.com/o/inicioPrincipal.png?alt=media&token=ac7969ff-0694-4ab6-8ad1-2e44988b8377");
 	background-size: contain;
 	justify-content: center;
 	background-repeat: no-repeat;
@@ -1020,7 +1020,7 @@ body{
 		grid-area: hero;
 		display: flex;
 		height: 100vh;
-		background-image: url("../assets/img/principalMobile.png");
+		background-image: url("https://firebasestorage.googleapis.com/v0/b/proyecto-one-a94fe.appspot.com/o/principalMobile.png?alt=media&token=103597bc-4ae2-4de3-b3d6-1a05e5dd9dfa");
 		background-size: cover;
 		background-repeat: no-repeat;
 		align-items: flex-start;
@@ -1202,7 +1202,7 @@ body{
 		grid-area: hero;
 		height: 80vh;
 		display: flex;
-		background-image: url("../assets/img/galeryMobile.png");
+		background-image: url("https://firebasestorage.googleapis.com/v0/b/proyecto-one-a94fe.appspot.com/o/galeryMobile.png?alt=media&token=25945633-0a47-46ac-8bd2-9311b5bc1b76");
 		background-size: contain;
 		padding-bottom: 50%;
 	}
@@ -1319,7 +1319,7 @@ body{
 		grid-area: hero;
 		height: 80vh;
 		display: flex;
-		background-image: url("../assets/img/servicesMobile.png");
+		background-image: url("https://firebasestorage.googleapis.com/v0/b/proyecto-one-a94fe.appspot.com/o/servicesPrincipal.png?alt=media&token=4b4e7cc0-2c3e-43cd-84f0-14c4cc03501f");
 		background-size: cover;
 		padding-bottom: 50%;
 	}
@@ -1435,7 +1435,7 @@ body{
 		grid-area: hero;
 		height: 80vh;
 		display: flex;
-		background-image: url("../assets/img/principalMobile.png");
+		background-image: url("https://firebasestorage.googleapis.com/v0/b/proyecto-one-a94fe.appspot.com/o/principalMobile.png?alt=media&token=103597bc-4ae2-4de3-b3d6-1a05e5dd9dfa");
 		background-size: cover;
 		padding-bottom: 50%;
 	}
